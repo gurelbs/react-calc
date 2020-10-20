@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+                                                /* calculator */
 .height-full-page{
   min-height: 100vh;
 }
@@ -49,14 +49,7 @@ button {
   grid-gap: 15px;
   padding: 20px;
 }
-.red{
-  color: red;
-}
-.page-footer{
-  display: grid;
-  place-items: center;
-  min-height: 10vh;
-}
+                            /* modes */
 .light-mode{
   background-color: rgb(238, 226, 228) ;
   color: #252525;
@@ -73,6 +66,10 @@ button {
   place-items: center;
   padding: 1rem 0;
 }
+
+
+                                      /* scrollbars-style */
+
 .max-height{
   max-height: 400px;
 }
@@ -82,7 +79,6 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
-
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   /* outline: 1px solid slategrey; */
@@ -90,13 +86,23 @@ body::-webkit-scrollbar-thumb {
 ::-webkit-scrollbar {
   width: 1.5rem;
 }
-
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 8px rgb(160, 124, 124);
   border-radius: 10px;
 }
-
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgb(255, 255, 255); 
+}
+
+
+                                              /* footer */
+
+.red{
+  color: red;
+}
+.page-footer{
+  display: grid;
+  place-items: center;
+  min-height: 10vh;
 }
